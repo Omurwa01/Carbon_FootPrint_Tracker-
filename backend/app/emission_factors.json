@@ -1,0 +1,184 @@
+{
+  "transport": {
+    "car_gasoline": {
+      "name": "Car (Gasoline)",
+      "factor": 0.21,
+      "unit": "kg CO₂/km",
+      "description": "Average gasoline car emissions per kilometer"
+    },
+    "car_diesel": {
+      "name": "Car (Diesel)",
+      "factor": 0.17,
+      "unit": "kg CO₂/km",
+      "description": "Average diesel car emissions per kilometer"
+    },
+    "car_hybrid": {
+      "name": "Car (Hybrid)",
+      "factor": 0.12,
+      "unit": "kg CO₂/km",
+      "description": "Average hybrid car emissions per kilometer"
+    },
+    "car_electric": {
+      "name": "Car (Electric)",
+      "factor": 0.05,
+      "unit": "kg CO₂/km",
+      "description": "Average electric car emissions per kilometer (including grid electricity)"
+    },
+    "bus": {
+      "name": "Bus",
+      "factor": 0.08,
+      "unit": "kg CO₂/km",
+      "description": "Public bus emissions per passenger per kilometer"
+    },
+    "train": {
+      "name": "Train",
+      "factor": 0.04,
+      "unit": "kg CO₂/km",
+      "description": "Train emissions per passenger per kilometer"
+    },
+    "subway": {
+      "name": "Subway/Metro",
+      "factor": 0.03,
+      "unit": "kg CO₂/km",
+      "description": "Subway/Metro emissions per passenger per kilometer"
+    },
+    "motorcycle": {
+      "name": "Motorcycle",
+      "factor": 0.13,
+      "unit": "kg CO₂/km",
+      "description": "Average motorcycle emissions per kilometer"
+    },
+    "flight_domestic": {
+      "name": "Flight (Domestic)",
+      "factor": 0.25,
+      "unit": "kg CO₂/km",
+      "description": "Domestic flight emissions per passenger per kilometer"
+    },
+    "flight_international": {
+      "name": "Flight (International)",
+      "factor": 0.15,
+      "unit": "kg CO₂/km",
+      "description": "International flight emissions per passenger per kilometer"
+    },
+    "bicycle": {
+      "name": "Bicycle",
+      "factor": 0.0,
+      "unit": "kg CO₂/km",
+      "description": "Bicycle produces no direct emissions"
+    },
+    "walking": {
+      "name": "Walking",
+      "factor": 0.0,
+      "unit": "kg CO₂/km",
+      "description": "Walking produces no direct emissions"
+    }
+  },
+  "energy": {
+    "electricity_grid": {
+      "name": "Grid Electricity",
+      "factor": 0.5,
+      "unit": "kg CO₂/kWh",
+      "description": "Average grid electricity emissions per kWh (varies by region)"
+    },
+    "natural_gas": {
+      "name": "Natural Gas",
+      "factor": 2.0,
+      "unit": "kg CO₂/m³",
+      "description": "Natural gas combustion emissions per cubic meter"
+    },
+    "heating_oil": {
+      "name": "Heating Oil",
+      "factor": 2.5,
+      "unit": "kg CO₂/L",
+      "description": "Heating oil combustion emissions per liter"
+    },
+    "propane": {
+      "name": "Propane",
+      "factor": 1.5,
+      "unit": "kg CO₂/L",
+      "description": "Propane combustion emissions per liter"
+    }
+  },
+  "food": {
+    "beef": {
+      "name": "Beef",
+      "factor": 27.0,
+      "unit": "kg CO₂/kg",
+      "description": "Beef production emissions per kilogram"
+    },
+    "pork": {
+      "name": "Pork",
+      "factor": 12.0,
+      "unit": "kg CO₂/kg",
+      "description": "Pork production emissions per kilogram"
+    },
+    "chicken": {
+      "name": "Chicken",
+      "factor": 6.9,
+      "unit": "kg CO₂/kg",
+      "description": "Chicken production emissions per kilogram"
+    },
+    "fish": {
+      "name": "Fish",
+      "factor": 5.4,
+      "unit": "kg CO₂/kg",
+      "description": "Fish production emissions per kilogram"
+    },
+    "dairy": {
+      "name": "Dairy Products",
+      "factor": 3.2,
+      "unit": "kg CO₂/kg",
+      "description": "Dairy products emissions per kilogram"
+    },
+    "eggs": {
+      "name": "Eggs",
+      "factor": 4.2,
+      "unit": "kg CO₂/kg",
+      "description": "Egg production emissions per kilogram"
+    },
+    "vegetables": {
+      "name": "Vegetables",
+      "factor": 2.0,
+      "unit": "kg CO₂/kg",
+      "description": "Vegetable production emissions per kilogram"
+    },
+    "fruits": {
+      "name": "Fruits",
+      "factor": 1.1,
+      "unit": "kg CO₂/kg",
+      "description": "Fruit production emissions per kilogram"
+    },
+    "grains": {
+      "name": "Grains/Cereals",
+      "factor": 1.4,
+      "unit": "kg CO₂/kg",
+      "description": "Grain and cereal production emissions per kilogram"
+    }
+  },
+  "household": {
+    "waste_landfill": {
+      "name": "Waste to Landfill",
+      "factor": 0.5,
+      "unit": "kg CO₂/kg",
+      "description": "Emissions from waste sent to landfill per kilogram"
+    },
+    "recycling": {
+      "name": "Recycling",
+      "factor": -0.1,
+      "unit": "kg CO₂/kg",
+      "description": "Carbon savings from recycling per kilogram (negative emissions)"
+    },
+    "composting": {
+      "name": "Composting",
+      "factor": -0.2,
+      "unit": "kg CO₂/kg",
+      "description": "Carbon savings from composting per kilogram (negative emissions)"
+    },
+    "water_usage": {
+      "name": "Water Usage",
+      "factor": 0.0003,
+      "unit": "kg CO₂/L",
+      "description": "Emissions from water treatment and heating per liter"
+    }
+  }
+}
